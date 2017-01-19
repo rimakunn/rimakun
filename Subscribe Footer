@@ -1,0 +1,50 @@
+#subscribe-footer{overflow:hidden;margin:0 0 20px 0;width:33.4%}
+#subscribe-footer p{margin:1em 0}
+#subscribe-footer .emailfooter{margin:auto;text-align:center;}
+#subscribe-footer .emailfooter form{margin:0;padding:0;float:left}
+#subscribe-footer .emailfooter input{background:rgba(0,0,0,.15);padding:12px;color:rgba(255,255,255,.5);font-size:14px;margin-bottom:10px;border:0;transition:all .3s}
+#subscribe-footer .emailfooter input:focus{color:rgba(255,255,255,.9);outline:none;}
+#subscribe-footer .emailfooter .submitfooter{background:rgba(255,255,255,.11);color:#fff;margin:0 0 0 5px;font-size:14px;cursor:pointer;padding:9px;border:0;border-radius:3px;transition:all .3s}
+#subscribe-footer .emailfooter .submitfooter:active,#subscribe-footer .emailfooter .submitfooter:hover{background-color:rgba(255,255,255,.18);color:#fff;}
+/* Popular Post */
+.PopularPosts ul{background:#fff;list-style:none;margin:0;padding:5px 5px 0;overflow:hidden;border-top:none}
+.PopularPosts li,.PopularPosts li img,.PopularPosts li a,.PopularPosts li a img{margin:0;padding:0;list-style:none;border:none;background:none;outline:none}
+.PopularPosts ul{margin:0;list-style:none;color:#64707a}
+.PopularPosts ul li img{background:#fafafa;display:block;margin:0 10px 0 0;width:60px;height:60px;overflow:hidden;float:left;}
+.PopularPosts ul li{background-color:#fff;margin:0;padding:.7em 0!important;border:0;position:relative;border-bottom:1px dotted rgba(0,0,0,0.2)}
+.PopularPosts ul li:first-child{border-top:none}
+.PopularPosts ul li:last-child{border-bottom:none}
+.PopularPosts ul li .item-title a,.PopularPosts ul li a{color:#555;font-size:13px;}
+.PopularPosts ul li a:hover{color:#009688;}
+.PopularPosts .item-thumbnail{margin:0;}
+.PopularPosts .item-snippet{display:none}
+.PopularPosts .item-title{font-weight:700;padding-bottom:.2em;padding:0 5px}
+/* About Me */
+#HTML68 .aboutinv-info h4{background:transparent;position:relative;padding:0;margin:0;border:0;text-align:center;font-size:120%}
+.aboutinv-img{position:relative;max-height:140px;overflow:hidden}
+.aboutinv-img img {max-width:100%;width:100%;transition:all .6s;}
+.aboutinv-img:hover img{transform:scale(1.2) rotate(-10deg)}
+.aboutinv-img:before{content:&#39;&#39;;background:rgba(0,0,0,0.3);position:absolute;top:0;left:0;right:0;bottom:0;z-index:2;transition:all .3s}
+.aboutinv-img:hover:before{background:rgba(0,0,0,0.6);}
+.aboutfloat-img{width:55%;position:absolute;top:35%;bottom:35%;left:22.5%;z-index:3}
+.aboutinv-float{text-align:center;display:table;width:100%;height:100%}
+.aboutinv-float a{background:transparent;color:#fff;padding:8px 14px;z-index:2;display:table-cell;width:100%;font-size:90%;text-transform:uppercase;vertical-align:middle;border:2px solid #fefefe;border-radius:3px;transition:all .3s}
+.aboutinv-float:hover a{background:#009688;color:#fff;border-color:transparent;}
+.aboutinv-float a i{font-weight:normal;margin:0 5px 0 0}
+.aboutinv-wrpicon{display:block;margin:15px auto;position:relative;}
+.aboutinv-wrpicon .extender{width:100%;display:block;}
+.extender{text-align:center;font-size:16px}
+.extender .aboutinv-icon{display:inline-block;border:0;margin:0;padding:0;width:32%;}
+.extender .aboutinv-icon a{background:#ccc;display:inline-block;font-weight:400;color:#fff;padding:0 12px;line-height:32px;border-radius:3px;font-size:12px;width:100%;}
+.extender .aboutinv-icon i{font-family:fontawesome;margin:0 3px 0 0}
+.aboutinv-icon.fbl a{background:#3b5998}
+.aboutinv-icon.twitt a{background:#19bfe5}
+.aboutinv-icon.crcl a{background:#d64136}
+.aboutinv-icon.fbl a:hover,.aboutinv-icon.twitt a:hover,.aboutinv-icon.crcl a:hover{background:#404040}
+.extender .aboutinv-icon:hover a,.extender .aboutinv-icon a:hover{color:#fff;}
+.aboutinv-info{margin:10px 0 0 0;font-size:13px;text-align:center;}
+.aboutinv-info p{margin:5px 0}
+.aboutinv-info h4{margin-bottom:10px;font-size:16px;text-transform:uppercase;color:#444;font-weight:700}
+.aboutinv-info h4 span {position:relative;display:inline-block;padding:0 10px;margin:0 auto;}
+.aboutinv-info h4:before,.aboutinv-info h4:after {position:absolute;top:51%;overflow:hidden;width:50%;height:1px;content:&#39;\a0&#39;;background-color:rgba(0,0,0,0.08);}
+.aboutinv-info h4:before {margin-left:-50%;text-align:right;}
